@@ -6,6 +6,7 @@ def oxford_comma(array)
   end
 
   array.map do |names|
+    puts names
     if names == array[-1]
       names = "and " << names
     else
