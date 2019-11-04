@@ -9,7 +9,7 @@ def oxford_comma(array)
   #  if names == array[-1]
     #  puts array.join(" and ")
   #  end
-  array.to_sentence
+  return array.to_sentence
   end
 end
 puts array
