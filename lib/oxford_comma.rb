@@ -8,6 +8,7 @@ def oxford_comma(array)
     if names == array[-1]
       puts "and " << names
     else
+      puts names << ", "
     end
   end
 end
