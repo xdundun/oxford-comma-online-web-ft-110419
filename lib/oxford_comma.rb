@@ -6,6 +6,8 @@ def oxford_comma(array)
   else
   array.each do |names|
     puts array.join(",")
+    if names == array[-1]
+      puts array.join(" and ")
   end
 end
 puts array
