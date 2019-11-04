@@ -5,3 +5,5 @@ else
   array.each do |names|
     array.join(",")
 end
+puts array
+end
