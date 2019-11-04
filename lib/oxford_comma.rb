@@ -13,6 +13,7 @@ def oxford_comma(array)
   #    names = names << ", "
   #  end
   #end
+  "and" << array[-1]
 puts array.join(", ")
-puts "and" << array[-1]
+
 end
