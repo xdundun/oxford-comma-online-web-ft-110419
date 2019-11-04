@@ -7,7 +7,6 @@ def oxford_comma(array)
   array.each do |names|
     if names == array[-1]
       puts "and " << names
-      break
     else
       puts names << ", "
     end
