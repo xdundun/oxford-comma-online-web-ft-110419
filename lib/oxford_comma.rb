@@ -12,5 +12,5 @@ def oxford_comma(array)
     end
   end
 end
-puts array
+#puts array
 end
