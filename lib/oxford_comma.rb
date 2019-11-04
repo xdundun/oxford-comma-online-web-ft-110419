@@ -12,6 +12,6 @@ def oxford_comma(array)
       puts names << ", "
     end
   end
-
+array.join
 #puts array
 end
