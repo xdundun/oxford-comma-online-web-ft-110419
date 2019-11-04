@@ -5,14 +5,14 @@ def oxford_comma(array)
     return array.join(" and ")
   end
 
-  array.map do |names|
-    puts names
-    if names == array[-1]
-      names = "and " << names
-    else
-      names = names << ", "
-    end
-  end
+#  array.map do |names|
+  #  puts names
+  #  if names == array[-1]
+  #    names = "and " << names
+  #  else
+  #    names = names << ", "
+  #  end
+  #end
 puts array.join
 #puts array
 end
